@@ -1,0 +1,47 @@
+/* weather */
+.weather {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+}
+
+.weather .col-6 {
+    padding: 0px;
+}
+
+/* New Todo */
+.new-todo {
+    width: 75%;
+    margin: auto;
+    margin-top: 15%;
+    padding: 20px;
+    border-radius: 5px;
+    /* border: 1px solid rgb(128, 128, 128, 0.2); */
+    background-color: rgb(128, 128, 128, 0.2);
+}
+
+/* Todo List */
+.todo-list {
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    /* border: 1px solid rgb(128, 128, 128, 0.2); */
+    background-color: rgb(128, 128, 128, 0.2);
+}
+
+.todo-list .col {
+    margin-bottom: 10px;
+}
+
+
+/* Todo */
+.todo {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin: auto;
+    background-color: rgb(255, 73, 200);
+}

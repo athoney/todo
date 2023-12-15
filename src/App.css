@@ -2,3 +2,8 @@
   text-align: center;
   /* background-color: red; */
 }
+
+body {
+  background-size: cover !important;
+  /* background-repeat: no-repeat !important; */
+}

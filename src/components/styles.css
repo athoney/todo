@@ -4,6 +4,9 @@
     top: 20px;
     right: 20px;
     width: 200px;
+    background-color: rgba(255, 255, 255, 0.548);
+    border-radius: 5px;
+    padding-top: 10px;
 }
 
 .weather .col-6 {
@@ -14,11 +17,11 @@
 .new-todo {
     width: 75%;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 10%;
     padding: 20px;
     border-radius: 5px;
     /* border: 1px solid rgb(128, 128, 128, 0.2); */
-    background-color: rgb(128, 128, 128, 0.2);
+    background-color: rgba(255, 255, 255, 0.548);
 }
 
 /* Todo List */
@@ -27,13 +30,15 @@
     margin: auto;
     margin-top: 50px;
     padding: 20px;
+    padding-bottom: 0px;
     border-radius: 5px;
-    /* border: 1px solid rgb(128, 128, 128, 0.2); */
-    background-color: rgb(128, 128, 128, 0.2);
+    max-height: 400px;
+    background-color: rgba(255, 255, 255, 0.548);
+    overflow-y: auto;
 }
 
 .todo-list .col {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 
@@ -43,5 +48,61 @@
     height: 100px;
     padding: 5px;
     margin: auto;
-    background-color: rgb(255, 73, 200);
+}
+
+.todo p {
+    font-size: 14px;
+}
+
+.todo-options {
+    visibility: hidden;
+    position: relative;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+
+.todo:hover .todo-options {
+    visibility: visible;
+}
+
+.todo-options span:hover {
+    cursor: pointer;
+}
+
+/* Background */
+#background {
+    position: absolute;
+    bottom: 130px;
+    right: 20px;
+
+}
+
+#color-picker {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* width: 20px;
+    height: 20px; */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    max-width: 100px !important;
+}
+
+#note-color {
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.548);
+
+    text-align: center;
+    padding-top: 10px;
 }
